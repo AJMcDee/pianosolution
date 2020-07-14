@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+* {
+  font-family: 'Cutive Mono', monospace;
+}
+body {
+  background-color: bisque;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+#containerouter {
+  background-color:white;
+  margin: 0 auto;
+  width: 70%;
+  height: 90%;
+  text-align: center;
+  border: 8px double black;
+  padding: 30px;
+}
+
+#containerinner {
+  margin: 0 auto;
+  width: 80%;
+}
+
+
+/* Navigation Bar */
+
+nav {
+  font-size: 2rem;
+  border-top: 4px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: none;
+  padding: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  margin: 0px 20px;
+}
+
+nav a:hover {
+  color: red;
+}
+
+
+/* Image Settings */
+
+#pianoimage {
+  width: 100%;
+  padding: 50px 0;
+}
+
+
+#logomain {
+  width: 200px;
+}
